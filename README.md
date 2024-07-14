@@ -12,6 +12,6 @@
 
 Screenshots:
 ![image](https://github.com/Monserrat-Data/Geek-Store/blob/main/img/Captura%20de%20pantalla%201%20(2).png?raw=true)
-![image](https://github.com/Monserrat-Data/Geek-Store/blob/main/img/Captura%20de%20pantalla%201%20(1).png?raw=true)
+
 
 
