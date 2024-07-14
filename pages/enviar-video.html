@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/flexbox.css">
+    <title>Alura Geek</title>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- encabezado -->
+    <header>
+        <nav class="encabezado">
+            <a class="logo" href="../index.html"></a>
+            <div class="cabecalho__icones">
+                <a href="./enviar-video.html" class="cabecalho__videos"></a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <form class="contenedor__formulario" data-formulario>
+            <h2 class="titulo__formulario">AGREGAR PRODUCTO:</h2>
+            <div class="formulario_campo">
+                <label class="campo_etiqueta" for="url">Link</label>
+                <input name="url" class="campo_escrita" required placeholder="Link" id="url" data-url/>
+            </div>
+            <div class="formulario_campo">
+                <label class="campo_etiqueta" for="titulo">Título</label>
+                <input name="titulo" class="campo_escrita" required placeholder="Título" id="titulo" data-titulo/>
+            </div>
+            <div class="formulario_campo">
+                <label class="campo_etiqueta" for="descripcion">Precio</label>
+                <input name="descripcion" class="campo_escrita" required placeholder="Precio" id="descripcion" data-descripcion/>
+            </div>
+            <div class="contenedor-boton">
+                <input class="formulario__boton" type="submit" />
+            </div>
+        </form>
+    </main>
+    <script src="../js/crearVideo.js" type="module"></script>
+</body>
+
+</html>

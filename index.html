@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alura Geek</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/form.css">
+  <link rel="stylesheet" href="./css/flexbox.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="contenedor">
+    <header class="contenedor__header">
+      <div class="box">
+        <div> 
+          <img src="./img/Logo.png" alt="logo" class="logoalurageek"> 
+        </div>
+      </div>
+    </header>
+    <main>
+      <form class="contenedor__formulario" data-formulario>
+        <h2 class="titulo__formulario">AGREGAR PRODUCTO:</h2>
+        <div class="formulario_campo">
+          <label class="campo_etiqueta" for="url"></label>
+          <input name="url" class="campo_escrita" required placeholder="Link" id="url" data-url/>
+        </div>
+        <div class="formulario_campo">
+          <label class="campo_etiqueta" for="titulo"></label>
+          <input name="titulo" class="campo_escrita" required placeholder="Título" id="titulo" data-titulo/>
+        </div>
+        <div class="formulario_campo">
+          <label class="campo_etiqueta" for="descripcion"></label>
+          <input name="descripcion" class="campo_escrita" required placeholder="Precio" id="descripcion" data-descripcion/>
+        </div>
+        <div class="contenedor-boton">
+          <input class="formulario__boton" type="submit" />
+        </div>
+       
+      </form>
+
+      <div class="contenedor__productos">
+        <h2>MIS PRODUCTOS:</h2>
+        <ul class="card_container" alt="videos" data-lista>
+          <li class="card">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_986528-MCO76615277490_062024-F.webp" alt="Mariobross" class="img__producto">
+            <div class="nombre__producto">
+              <h3>SUPER MARIO BROSS</h3>
+              <p>$50.00</p>
+            </div>
+          </li>
+          <li class="card">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_629621-CBT75216391999_032024-F.webpg" alt="SONIC" class="img__producto">
+            <div class="nombre__producto">
+              <h3>SONIC RUMBLE</h3>
+              <p>$30.00</p>
+            </div>
+          </li>
+          <li class="card">
+            <img src="https://http2.mlstatic.com/D_NQ_NP_2X_823378-MCO48670723166_122021-F.webp" alt="CRASH" class="img__producto">
+            <div class="nombre__producto">
+              <h3>CRASH</h3>
+              <p>$50.00</p>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./img/PACMAN.jpg" alt="PACMAN" class="img__producto">
+            <div class="nombre__producto">
+              <h3>PACMAN</h3>
+              <p>$20.00</p>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./img/CONTRA.jpg" alt="CONTRA" class="img__producto">
+            <div class="nombre__producto">
+              <h3>CONTRA</h3>
+              <p>$40.00</p>
+            </div>
+          </li>
+          <li class="card">
+            <img src="./img/MORTALKOMBAT.jpg" alt="MORTALKOMBAT" class="img__producto">
+            <div class="nombre__producto">
+              <h3>MORTAL KOMBAT</h3>
+              <p>$50.00</p>
+            </div>
+          </li>
+         
+        </ul>
+        <script src="./js/mostrarVideo.js" type="module"></script>
+      </div>
+    </main>
+    <footer>
+      <div class="box">
+        <div> 
+          <img class="logoalurageek" src="../img/Logo.png">
+        </div>
+      </div>
+      <div>       
+        <h3 class="desarrollado">Desarrollado por Agustín Altamira</h3>
+        <h4 class="alurafirma">ALURA LATAM / 2024</h4>
+      </div>
+    </footer>
+  </div>
+  <script src="./js/crearVideo.js" type="module"></script>
+</body>
+</html>
